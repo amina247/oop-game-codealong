@@ -1,1 +1,18 @@
-main.css
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    background-color: green;
+    height: 100vh;
+    position: relative;
+}
+
+#player {
+    background-color: fuchsia;
+    height: 10vw;
+    width: 20vh;
+    position: absolute;
+    bottom: 0;
+}
